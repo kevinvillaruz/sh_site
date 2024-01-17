@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords"
+		content="advanced search custom, agency, agent, business, clean, corporate, directory, google maps, homes, listing, membership packages, property, real estate, real estate agent, realestate agency, realtor">
+	<meta name="description" content="FindHouse - Real Estate HTML Template">
+	<meta name="CreativeLayers" content="ATFN">
+	<!-- css file -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Title -->
+	<title>Contact us | SelectHomes</title>
+	<!-- Favicon -->
+	<link href="images/selecthomes-favicon.svg" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+	<link href="images/selecthomes-favicon.svg" sizes="128x128" rel="shortcut icon" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="preloader"></div>
+
+		<!-- Main Header Nav -->
+		<header class="header-nav menu_style_home_one style2 navbar-scrolltofixed stricky main-menu">
+			<div class="container-fluid p0">
+				<!-- Ace Responsive Menu -->
+				<!-- Menu Toggle btn-->
+				<div class="menu-toggle">
+					<img class="nav_logo_img img-fluid" src="images/Site-logo-main.svg" alt="header-logo.png">
+					<button type="button" id="menu-btn">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<a href="#" class="navbar_brand float-left dn-smd">
+					<img class="logo1 img-fluid" src="images/Site-logo-alt.svg" alt="header-logo.png">
+					<img class="logo2 img-fluid" src="images/Site-logo-alt.svg" alt="header-logo2.png">
+				</a>
+				<!-- Responsive Menu Structure-->
+				<!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+				<ul id="respMenu" class="ace-responsive-menu text-right" data-menu-style="horizontal">
+					<li>
+						<a href=index.html><span class="title">Home</span></a>
+						<!-- Level Two-->
+					</li>
+					<li>
+						<a href="#"><span class="title">Listings</span></a>
+						<!-- Level Two-->
+						<ul>
+							<li>
+								<a href="#">Residential</a>
+								<!-- Level Three-->
+								<ul>
+									<li><a href="page-listing-grid-v1.html">Buy</a></li>
+									<li><a href="page-listing-grid-v1.html">Rent</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Commercial</a>
+								<!-- Level Three-->
+								<ul>
+									<li><a href="page-listing-grid-v1.html">Buy</a></li>
+									<li><a href="page-listing-grid-v1.html">Rent</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#"><span class="title">About</span></a>
+						<!-- Level Two-->
+						<ul>
+							<li>
+								<a href="page-about.html"><span class="title">Company</span></a>
+							</li>
+							<li>
+								<a href="page-listing-agent-v2.html"><span class="title">Agents</span></a>
+							</li>
+							<li>
+								<a href="page-service.html"><span class="title">Services</span></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+					<li>
+						<a href="page-blog-grid.html"><span class="title">News</span></a>
+					</li>
+					<li class="last">
+						<a href="page-contact.html"><span class="title">Contact</span></a>
+					</li>
+
+					<li class="list-inline-item list_s"><a href="#" class="btn flaticon-user" data-toggle="modal"
+							data-target=".bd-example-modal-lg"> <span class="dn-lg">Account</span></a></li>
+					<!-- Create Listing Button - uncomment to activate
+			<li class="list-inline-item add_listing"><a href="page-add-new-property.html"><span
+						class="flaticon-plus"></span><span class="dn-lg"> List Property</span></a></li> -->
+				</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- Modal -->
+		<div class="sign_up_modal modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body container pb20">
+						<div class="row">
+							<div class="col-lg-12">
+								<ul class="sign_up_tab nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
+											role="tab" aria-controls="home" aria-selected="true">Login</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
+											role="tab" aria-controls="profile" aria-selected="false">Register</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="tab-content container" id="myTabContent">
+							<div class="row mt25 tab-pane fade show active" id="home" role="tabpanel"
+								aria-labelledby="home-tab">
+								<div class="col-lg-6 col-xl-6">
+									<div class="login_thumb">
+										<img class="img-fluid w100" src="images/resource/login.jpg" alt="login.jpg">
+									</div>
+								</div>
+								<div class="col-lg-6 col-xl-6">
+									<div class="login_form">
+										<form action="#">
+											<div class="heading">
+												<h4>Login</h4>
+											</div>
+											<div class="row mt25">
+												<div class="col-lg-12">
+													<button type="submit" class="btn btn-fb btn-block"><i
+															class="fa fa-facebook float-left mt5"></i> Login with
+														Facebook</button>
+												</div>
+												<div class="col-lg-12">
+													<button type="submit" class="btn btn-googl btn-block"><i
+															class="fa fa-google float-left mt5"></i> Login with
+														Google</button>
+												</div>
+											</div>
+											<hr>
+											<div class="input-group mb-2 mr-sm-2">
+												<input type="text" class="form-control"
+													id="inlineFormInputGroupUsername2" placeholder="User Name Or Email">
+												<div class="input-group-prepend">
+													<div class="input-group-text"><i class="flaticon-user"></i></div>
+												</div>
+											</div>
+											<div class="input-group form-group">
+												<input type="password" class="form-control" id="exampleInputPassword1"
+													placeholder="Password">
+												<div class="input-group-prepend">
+													<div class="input-group-text"><i class="flaticon-password"></i>
+													</div>
+												</div>
+											</div>
+											<div class="form-group custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="exampleCheck1">
+												<label class="custom-control-label" for="exampleCheck1">Remember
+													me</label>
+												<a class="btn-fpswd float-right" href="#">Lost your password?</a>
+											</div>
+											<button type="submit" class="btn btn-log btn-block btn-thm">Log In</button>
+											<p class="text-center">Don't have an account? <a class="text-thm"
+													href="#">Register</a></p>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="row mt25 tab-pane fade" id="profile" role="tabpanel"
+								aria-labelledby="profile-tab">
+								<div class="col-lg-6 col-xl-6">
+									<div class="regstr_thumb">
+										<img class="img-fluid w100" src="images/resource/regstr.jpg" alt="regstr.jpg">
+									</div>
+								</div>
+								<div class="col-lg-6 col-xl-6">
+									<div class="sign_up_form">
+										<div class="heading">
+											<h4>Register</h4>
+										</div>
+										<form action="#">
+											<div class="row">
+												<div class="col-lg-12">
+													<button type="submit" class="btn btn-block btn-fb"><i
+															class="fa fa-facebook float-left mt5"></i> Login with
+														Facebook</button>
+												</div>
+												<div class="col-lg-12">
+													<button type="submit" class="btn btn-block btn-googl"><i
+															class="fa fa-google float-left mt5"></i> Login with
+														Google</button>
+												</div>
+											</div>
+											<hr>
+											<div class="form-group input-group">
+												<input type="text" class="form-control" id="exampleInputName"
+													placeholder="User Name">
+												<div class="input-group-prepend">
+													<div class="input-group-text"><i class="flaticon-user"></i></div>
+												</div>
+											</div>
+											<div class="form-group input-group">
+												<input type="email" class="form-control" id="exampleInputEmail2"
+													placeholder="Email">
+												<div class="input-group-prepend">
+													<div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
+												</div>
+											</div>
+											<div class="form-group input-group">
+												<input type="password" class="form-control" id="exampleInputPassword2"
+													placeholder="Password">
+												<div class="input-group-prepend">
+													<div class="input-group-text"><i class="flaticon-password"></i>
+													</div>
+												</div>
+											</div>
+											<div class="form-group input-group">
+												<input type="password" class="form-control" id="exampleInputPassword3"
+													placeholder="Re-enter password">
+												<div class="input-group-prepend">
+													<div class="input-group-text"><i class="flaticon-password"></i>
+													</div>
+												</div>
+											</div>
+											<div class="form-group ui_kit_select_search mb0">
+												<select class="selectpicker" data-live-search="true" data-width="100%">
+													<option data-tokens="SelectRole">Single User</option>
+													<option data-tokens="Agent/Agency">Agent</option>
+													<option data-tokens="SingleUser">Multi User</option>
+												</select>
+											</div>
+											<div class="form-group custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="exampleCheck2">
+												<label class="custom-control-label" for="exampleCheck2">I have read and
+													accept the Terms and Privacy Policy?</label>
+											</div>
+											<button type="submit" class="btn btn-log btn-block btn-thm">Sign Up</button>
+											<p class="text-center">Already have an account? <a class="text-thm"
+													href="#">Log In</a></p>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Header Nav For Mobile -->
+		<div id="page" class="stylehome1 h0">
+			<div class="mobile-menu">
+				<div class="header stylehome1">
+					<div class="main_logo_home2 text-center">
+						<img class="nav_logo_img img-fluid mt20" src="images/Site-logo-alt.svg" alt="header-logo2.png">
+					</div>
+					<ul class="menu_bar_home2">
+						<li class="list-inline-item list_s"><a href="page-register.html"><span
+									class="flaticon-user"></span></a></li>
+						<li class="list-inline-item"><a href="#menu"><span></span></a></li>
+					</ul>
+				</div>
+			</div><!-- /.mobile-menu -->
+			<nav id="menu" class="stylehome1">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+
+					<li>
+						<a href="#"><span class="title">Listings</span></a>
+						<!-- Level Two-->
+						<ul>
+							<li>
+								<a href="#">Residential</a>
+								<!-- Level Three-->
+								<ul>
+									<li><a href="page-listing-grid-v1.html">Buy</a></li>
+									<li><a href="page-listing-grid-v1.html">Rent</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Commercial</a>
+								<!-- Level Three-->
+								<ul>
+									<li><a href="page-listing-grid-v1.html">Buy</a></li>
+									<li><a href="page-listing-grid-v1.html">Rent</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#"><span class="title">About</span></a>
+						<!-- Level Two-->
+						<ul>
+							<li>
+								<a href="page-about.html"><span class="title">Company</span></a>
+							</li>
+							<li>
+								<a href="page-listing-agent-v2.html"><span class="title">Agents</span></a>
+							</li>
+							<li>
+								<a href="page-service.html"><span class="title">Services</span></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+					<li>
+						<a href="page-blog-grid.html"><span class="title">News</span></a>
+					</li>
+					<li class="last">
+						<a href="page-contact.html"><span class="title">Contact</span></a>
+					</li>
+					<li><a href="page-login.html"><span class="flaticon-user"></span> Login</a></li>
+					<li><a href="page-register.html"><span class="flaticon-edit"></span> Register</a></li>
+					<li class="cl_btn"><a class="btn btn-block btn-lg btn-thm circle" href="#"><span
+								class="flaticon-plus"></span> Create Listing</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Inner Page Breadcrumb -->
+		<section class="inner_page_breadcrumb">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6">
+						<div class="breadcrumb_content">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">Home</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Contact</li>
+							</ol>
+							<h4 class="breadcrumb_title">Contact Us</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Our Contact -->
+		<section class="our-contact pb0 bgc-f7">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-xl-8">
+						<div class="form_grid">
+							<h4 class="mb5">Send us an Email</h4>
+							<p>Please fill in your details and any questions you have below.</p>
+							<form class="contact_form" id="contact_form" name="contact_form" action="#" method="post"
+								novalidate="novalidate">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input id="form_name" name="form_name" class="form-control"
+												required="required" type="text" placeholder="Name">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input id="form_email" name="form_email" class="form-control required email"
+												required="required" type="email" placeholder="Email">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input id="form_phone" name="form_phone" class="form-control required phone"
+												required="required" type="phone" placeholder="Phone">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input id="form_subject" name="form_subject" class="form-control required"
+												required="required" type="text" placeholder="Subject">
+										</div>
+									</div>
+									<div class="col-sm-12">
+										<div class="form-group">
+											<textarea id="form_message" name="form_message"
+												class="form-control required" rows="8" required="required"
+												placeholder="Your Message"></textarea>
+										</div>
+										<div class="form-group mb0">
+											<button type="button" class="btn btn-lg btn-thm">Send Message</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-5 col-xl-4">
+						<div class="contact_localtion">
+							<h4>Contact Us</h4>
+							<p>We endeavor to reply to all inquiries within one business day.</p>
+							<div class="content_list">
+								<h5>Address</h5>
+								<p>P.O. Box 114211 <br>Abu Dhabi, U.A.E.</p>
+							</div>
+							<div class="content_list">
+								<h5>Phone</h5>
+								<p>+971 (55) 496-8188</p>
+							</div>
+							<div class="content_list">
+								<h5>Mail</h5>
+								<p>info@selecthomes.ae</p>
+							</div>
+							<h5>Follow Us</h5>
+							<ul class="contact_form_social_area">
+								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid p0 mt50">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="h600" id="map-canvas"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Start Partners -->
+		<section class="start-partners bgc-thm pt50 pb50">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="start_partner tac-smd">
+							<h2>Become a Real Estate Agent</h2>
+							<p>Our team is comprised of well-educated, articulate, fluent multilingual Agents.</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="parner_reg_btn text-right tac-smd">
+							<a class="btn btn-thm2" href="#">Join the Team</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Our Footer -->
+		<section class="footer_one">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0">
+						<div class="footer_about_widget">
+							<h4>About SelectHomes</h4>
+							<p>We’re reimagining how you buy, sell and rent. It’s now easier to get into a place you
+								love. So let’s do this, together.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+						<div class="footer_qlink_widget">
+							<h4>Quick Links</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Buyer’s Guide</a></li>
+								<li><a href="#">Tenant’s Guide</a></li>
+								<li><a href="#">Support Center</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+						<div class="footer_contact_widget">
+							<h4>Contact Us</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">info@selechomes.ae</a></li>
+								<li><a href="#">P.O. Box 144211</a></li>
+								<li><a href="#">Abu Dhabi, U.A.E.</a></li>
+								<li><a href="#">+971 (2) xxx-xxxx</a></li>
+								<li><a href="#">+971 (55) 496-8188</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+						<div class="footer_social_widget">
+							<h4>Follow us</h4>
+							<ul class="mb30">
+								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+							<h4>Subscribe</h4>
+							<form class="footer_mailchimp_form">
+								<div class="form-row align-items-center">
+									<div class="col-auto">
+										<input type="email" class="form-control mb-2" id="inlineFormInput"
+											placeholder="Your email">
+									</div>
+									<div class="col-auto">
+										<button type="submit" class="btn btn-primary mb-2"><i
+												class="fa fa-angle-right"></i></button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Our Footer Bottom Area -->
+		<section class="footer_middle_area pt40 pb40">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-xl-6">
+						<div class="footer_menu_widget">
+							<ul>
+								<li class="list-inline-item"><a href="#">Home</a></li>
+								<li class="list-inline-item"><a href="#">Listings</a></li>
+								<li class="list-inline-item"><a href="#">Agents</a></li>
+								<li class="list-inline-item"><a href="#">Services</a></li>
+								<li class="list-inline-item"><a href="#">News</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-6">
+						<div class="copyright-widget text-right">
+							<p>© 2022 Select Homes</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a class="scrollToHome" href="#"><i class="flaticon-arrows"></i></a>
+	</div>
+	<!-- Wrapper End -->
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate-3.0.0.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+	<script type="text/javascript" src="js/ace-responsive-menu.js"></script>
+	<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+	<script type="text/javascript" src="js/snackbar.min.js"></script>
+	<script type="text/javascript" src="js/simplebar.js"></script>
+	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/scrollto.js"></script>
+	<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+	<script type="text/javascript" src="js/jquery.counterup.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/progressbar.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+	<script type="text/javascript" src="js/timepicker.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM&callback=initMap"
+		type="text/javascript"></script>
+	<script type="text/javascript" src="js/googlemaps1.js"></script>
+	<!-- Custom script for all pages -->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

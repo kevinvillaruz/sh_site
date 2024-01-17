@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../sandbox320"
+		},
+		{
+			"path": "../../../javascript course"
+		},
+		{
+			"path": "../../../javascript course/complete-javascript-course-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascript course"
+	}
+}
